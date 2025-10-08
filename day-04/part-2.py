@@ -37,7 +37,7 @@ def count_x_mas(grid):
 
 def load_input():
     grid = []
-    with open("part-2-input.txt", "r") as file:
+    with open("input.txt", "r") as file:
         for line in file:
             grid.append(list(line.strip()))
     return grid

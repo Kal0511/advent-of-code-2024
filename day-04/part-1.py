@@ -48,7 +48,7 @@ def count_xmas(grid):
 
 def load_input():
     grid = []
-    with open("part-1-input.txt", "r") as file:
+    with open("input.txt", "r") as file:
         for line in file:
             grid.append(list(line.strip()))
     return grid
