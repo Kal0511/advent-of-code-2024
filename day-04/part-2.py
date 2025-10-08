@@ -1,7 +1,7 @@
 # Day 4: Ceres Search Part 2
 # https://adventofcode.com/2024/day/4
-# Time Complexity O(n)
-# Space Complexity O(n)
+# Time Complexity O(n^2) (rows * columns)
+# Space Complexity O(n^2)
 
 def count_x_mas(grid):
     rows = len(grid)
